@@ -53,13 +53,11 @@ git clone
 2. Run 
 ```bash
 pip install uv
-cd gmb_app
 uv sync
 ```
 
 2. (Alternatively) Run
 ```bash
-cd gmb_app
 pip install -r requirements.txt
 ```
 
@@ -70,7 +68,6 @@ pip install -r requirements.txt
 ### 1. Launch the Application
 Run the application using the command:
 ```bash
-cd gmb_app
 streamlit run main.py
 ```
 
